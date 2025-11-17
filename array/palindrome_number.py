@@ -1,4 +1,14 @@
+"""
+Title: Palindrome Number
+Difficulty: Easy
 
+Description (short): Determine whether an integer is a palindrome by
+reversing its digits and comparing with the original
+value. Negative numbers are not palindromes.
+
+Time complexity: O(log₁₀ n) — number of digits processed
+Space complexity: O(1) — constant extra space
+"""
 
 class Solution:
     def palindromeNumber(self, x: int) -> int:
