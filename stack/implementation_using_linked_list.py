@@ -32,7 +32,7 @@ class myStack:
     def peek(self):
         if self.top is None:
             print("Stack is Empty")
-            return -1
+            return -1 
         return self.top.data
     
     # Check if Stack is Empty
